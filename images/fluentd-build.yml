@@ -1,0 +1,7 @@
+version: "2.4"
+services:
+  fluentd:
+    image: ${FLUENTD_IMAGE}
+    build:
+      context: ./
+      dockerfile: Dockerfile.fluentd

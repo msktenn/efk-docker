@@ -1,0 +1,7 @@
+version: "2.4"
+services:
+  kibana:
+    image: ${KIBANA_IMAGE}
+    build:
+      context: ./
+      dockerfile: Dockerfile.kibana
